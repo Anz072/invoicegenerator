@@ -1,0 +1,8 @@
+.dashboard-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 500;
+    width: 600;
+}
