@@ -1,0 +1,23 @@
+.banner-invoice-item{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    background-color: #f1f1f1;
+    padding:0 15px 0px 15px;
+    color: #999;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.banner-invoice-item-left{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-invoice-item-right{
+    display: flex;
+    width: 40%;
+    justify-content: end;
+    align-items: center;
+}

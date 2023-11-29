@@ -1,4 +1,4 @@
-import { Drawer, Button } from "@mui/material";
+import { Drawer, Button, Typography } from "@mui/material";
 import { Outlet, useNavigate } from "react-router-dom";
 const drawerWidth = 200;
 
@@ -32,14 +32,25 @@ const Sidebar = () => {
           flexShrink: 0,
           "& .MuiDrawer-paper": {
             width: drawerWidth,
-            boxSizing: "border-box",
-            background: "#000",
+            background: "#222",
+            borderRight: 0, 
           },
         }}
         variant="permanent"
         anchor="left"
       >
-        <h2 styles={{ color: "#FFF" }}>InvoiceSwift</h2>
+        <Typography
+          variant="h5"
+          component="h2"
+          style={{
+            color: "#222",
+            backgroundColor: "rgba(192, 224, 201, 0.9)",
+            padding: 12,
+            textAlign:'center'
+          }}
+        >
+          InvoiceSwift
+        </Typography>
         <Button
           variant="text"
           sx={stylingButton}

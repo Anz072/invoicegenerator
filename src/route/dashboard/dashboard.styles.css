@@ -3,7 +3,10 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    background-color: rgb(53, 78, 97);
+    background-color: rgb(250,250,250);
     padding-left: 210px;
     padding-right: 10px;
+}
+.dashboard-main-title{
+    margin-top: 30px;
 }

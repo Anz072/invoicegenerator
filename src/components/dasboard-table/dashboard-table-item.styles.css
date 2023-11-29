@@ -1,0 +1,27 @@
+.invoice-item {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  padding: 0 15px 0px 15px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.invoice-item:hover {
+  background-color: rgba(212, 212, 212, 0.2);
+}
+
+.invoice-item-left {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.invoice-item-right {
+  display: flex;
+  width: 40%;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+}
