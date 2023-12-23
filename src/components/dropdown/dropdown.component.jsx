@@ -1,26 +1,30 @@
-import { useState } from "react";
 import "./dropdown.styles.css";
 
-const DropdownExample = () => {
-  const [selectedOption, setSelectedOption] = useState("");
-
+const MainDropdown = ({ options, stateFunction , holder, label}) => {
+  
   const handleSelectChange = (event) => {
-    setSelectedOption(event.target.value);
+    stateFunction(event.target.value)
   };
 
   return (
     <div className="dropdown-container">
+      {label && <label className="input-label">{label}</label>}
       <select
         className="dropdown-select"
-        value={selectedOption}
+        value={holder}
         onChange={handleSelectChange}
       >
-        <option value="option1">Option 1</option>
-        <option value="option2">Option 2</option>
-        <option value="option3">Option 3</option>
+        {options &&
+          options.map((elem) => {
+            return (
+              <option key={elem} value={elem}>
+                {elem}
+              </option>
+            );
+          })}
       </select>
     </div>
   );
 };
 
-export default DropdownExample;
+export default MainDropdown;

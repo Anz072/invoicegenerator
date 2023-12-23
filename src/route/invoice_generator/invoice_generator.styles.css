@@ -1,22 +1,32 @@
+.dashboard-main {
+  /* background-color: #7b4397; */
+  background: linear-gradient(#614385,#516395);
+  min-height: fit-content;
+  height: fit-content;
+}
 .invoice_gen_container {
-  background: linear-gradient(to right, #cc2b5e, #753a88);
+  background: #f2f2f2;
   width: calc(100% - 40px);
-  height: calc(100% - 40px);
+  min-height: fit-content;
   margin: 20px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 15px 20px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 15px 20px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 15px 20px 2px rgba(0, 0, 0, 0.5);
 }
 
-.block1 {
+.dashboard_block1 {
   height: fit-content;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 20px 30px 20px;
+  padding: 0 20px 0px 20px;
   box-sizing: border-box;
   flex-wrap: wrap;
 }
@@ -34,9 +44,20 @@
   flex-wrap: wrap;
   gap: 12px;
 }
-.invoice_gen_divider{
+.invoice_gen_divider {
   height: 5px;
   width: 95%;
   border-radius: 25px;
   background-color: #111;
+  margin: 20px 0px;
+}
+
+.dashboard_block2 {
+  padding: 10px 20px;
+  width: calc(100% - 40px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
 }

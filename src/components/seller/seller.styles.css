@@ -1,5 +1,4 @@
 .seller_contianer{
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     gap: 12px;

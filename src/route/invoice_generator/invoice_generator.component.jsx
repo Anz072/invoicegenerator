@@ -1,15 +1,16 @@
+import BuyerFields from "../../components/buyer/buyer.component";
 import DateInput from "../../components/date_input/date_input.component";
 import DropdownExample from "../../components/dropdown/dropdown.component";
 import MainInput from "../../components/input/input.component";
 import SellerFields from "../../components/seller/seller.component";
+import ServicesFields from "../../components/services/services.component";
 import "./invoice_generator.styles.css";
 
 function InvoiceGenerator() {
   return (
     <div className="dashboard-main">
-      <h4>Create your invoice</h4>
       <div className="invoice_gen_container">
-        <div className="block1"> 
+        <div className="dashboard_block1">
           <div className="block1_left">
             <div>
               <p>Invoice type</p>
@@ -36,7 +37,14 @@ function InvoiceGenerator() {
           </div>
         </div>
         <div className="invoice_gen_divider"></div>
-        <SellerFields/>
+        <div className="dashboard_block2">
+          <SellerFields />
+          <BuyerFields />
+        </div>
+        <div className="invoice_gen_divider"></div>
+        <div>
+          <ServicesFields />
+        </div>
       </div>
     </div>
   );
