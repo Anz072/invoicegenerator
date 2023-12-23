@@ -1,0 +1,12 @@
+.seller_contianer{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.seller_first_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}

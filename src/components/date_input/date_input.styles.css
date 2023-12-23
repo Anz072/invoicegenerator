@@ -1,0 +1,30 @@
+.datepicker-container {
+  display: inline-block;
+  position: relative;
+}
+
+.datepicker-input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #f1f1f152;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #111;
+  box-shadow: 5px 5px 0px 1px #111;
+  -webkit-box-shadow: 5px 5px 0px 1px #111;
+  -moz-box-shadow: 5px 5px 0px 1px #111;
+}
+
+.datepicker-selected {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  z-index: 1;
+}

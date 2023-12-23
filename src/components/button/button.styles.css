@@ -1,0 +1,18 @@
+.button_main {
+  display: flex;
+  background-color: #e3fefd;
+  border: 2px solid #111;
+  border-radius: 8px;
+  color: #111;
+  cursor: pointer;
+  font-size: 16px;
+  height: 42px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 0px 1px #111;
+    -webkit-box-shadow: 5px 5px 0px 1px #111;
+    -moz-box-shadow: 5px 5px 0px 1px #111;
+}

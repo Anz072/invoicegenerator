@@ -3,7 +3,7 @@ import './invoices.styles.css';
 function Invoices() {
   return (
     <div className="dashboard-main">
-     <p>incoices</p>
+     <h4>incoices</h4>
     </div>
   );
 }

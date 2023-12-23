@@ -1,0 +1,26 @@
+.input-container {
+  display: inline-block;
+  position: relative;
+}
+
+.input-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block; 
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #f1f1f152;
+  color: #333;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #111;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 0px 1px #111;
+  -webkit-box-shadow: 5px 5px 0px 1px #111;
+  -moz-box-shadow: 5px 5px 0px 1px #111;
+}
